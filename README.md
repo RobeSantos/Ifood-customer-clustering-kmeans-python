@@ -28,6 +28,18 @@ The generated clusters can help areas such as **marketing**, **product**, and **
 - **Scikit-learn** – Machine Learning library, including the **K-Means** algorithm  
 
 ---
+## Data Dictionary
 
+| Variable         | Description |
+|------------------|------------|
+| id_transaction   | Transaction ID. The same ID may contain multiple items within a single order. |
+| order_time       | Exact time when the order was placed. |
+| location         | Location that processed the order (restaurant unit). |
+| item_name        | Item name (pizza, salad, beverage, or dessert). |
+| item_quantity   | Quantity of items in the order. |
+| latitude         | Latitude of the location where the order was generated. |
+| longitude        | Longitude of the location where the order was generated. |
+
+---
 ## Conclusion
 This project shows the **practical use of clustering techniques** to solve real business problems and turn data into **useful insights** for decision-making.
